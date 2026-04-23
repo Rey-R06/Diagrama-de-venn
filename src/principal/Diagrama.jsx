@@ -81,7 +81,7 @@ export default function Diagrama() {
 
       {datos && (
         <div className="venn-wrap">
-          <svg ref={svgRef} width="500" height="600" />
+          <svg ref={svgRef} viewBox="0 0 500 480" width="500" height="600" style={{ width: "100%", height: "auto" }} />
         </div>
       )}
     </div>

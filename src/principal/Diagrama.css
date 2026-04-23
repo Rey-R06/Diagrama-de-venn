@@ -75,3 +75,14 @@ h1 {
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 500px) {
+  .venn-wrap svg {
+    width: 100%;
+    height: auto;
+  }
+
+  .venn-wrap {
+    overflow-x: hidden;
+  }
+}
